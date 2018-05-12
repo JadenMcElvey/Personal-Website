@@ -28,8 +28,22 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+h1 {
+	font: 700 45px/100px "Domine", Arial, sans-serif;
+}
+h2 {
+  font: 300 25px/50px "Domine", Arial, sans-serif;
+	text-align: center;
+}
+header, h3, h4, h5, h6{
+  font: 300 16px/22px "Montserrat", Arial, sans-serif;
+}
+p, article, aside{
+  font: 400 16px/22px "Montserrat", Arial, sans-serif;
+}
 body {
 	line-height: 1;
+	width: 100%;
 }
 ol, ul {
 	list-style: none;
