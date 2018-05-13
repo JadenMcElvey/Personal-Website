@@ -6,7 +6,7 @@
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
+del, dfn, em, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
@@ -28,22 +28,66 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+/*https://coolors.co/0d1b2a-1b263b-415a77-c1cbd7-4b5358*/
+header {
+	height: 64px;
+	background-color: #C1CBD7;
+} 
+nav{
+	display: inline-block;
+	width: 45%;
+}
+img{
+	display: inline-block;
+	pointer-events: none;
+	width: 30%;
+	padding-left: 1.5%;
+	padding-right: 1.5%;
+	padding-bottom: 2.5%;
+}
 h1 {
-	font: 700 45px/100px "Domine", Arial, sans-serif;
+	font: 300 45px/100px "Maitree", Arial, sans-serif;
+	color: #A2A3BB;
+	text-align: center;	
 }
 h2 {
-  font: 300 25px/50px "Domine", Arial, sans-serif;
-	text-align: center;
+	padding-left: 20px;
+	font: 300 20px/20px "Maitree", Arial, sans-serif;
+	padding-top:12px;
+	height:52px;
+	color: #1B263B;
+	display: inline-block;
+	width: 50%;
 }
-header, h3, h4, h5, h6{
-  font: 300 16px/22px "Montserrat", Arial, sans-serif;
+h3{
+	padding-top: 35px;
+	padding-bottom: 20px;
+	text-align: center;	
+	font: 300 30px/30px "Maitree", Arial, sans-serif;
+	color: #A2A3BB;
+}
+h4, h5, h6{
+  font: 300 16px/22px "Maitree", Arial, sans-serif;
+}
+a{
+	text-decoration: none;
+	font: 300 15px/20px "Maitree", Arial, sans-serif;
+	color: #415A77;
+	display: inline-block;
+	width: 19%;
+	vertical-align: 50%;
 }
 p, article, aside{
-  font: 400 16px/22px "Montserrat", Arial, sans-serif;
+  font: 400 16px/25px "Montserrat", Arial, sans-serif;
 }
 body {
 	line-height: 1;
 	width: 100%;
+	height: auto;
+	background: #FFFFFF;
+}
+section{
+	height: 750px;
 }
 ol, ul {
 	list-style: none;
@@ -59,4 +103,63 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+a.currentPage{
+	color: #1B263B;
+}
+span.sidebar{
+	display: inline-block;
+	width: 24%;
+	height: 100%;
+	background-color: #415A77;
+}
+span.content{
+	display: inline-block;
+	width: 74%;
+	height: 100%;
+	vertical-align: top;
+	padding-left: 1%;
+}
+.sidebar aside{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#Portfolio {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
 }
