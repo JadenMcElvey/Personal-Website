@@ -81,8 +81,13 @@ a{
 	width: 19%;
 	vertical-align: 50%;
 }
-p, article, aside{
+article, aside{
   font: 400 16px/25px "Montserrat", Arial, sans-serif;
+}
+p{
+	font: 400 18px/30px "Montserrat", Arial, sans-serif;
+	padding-left: 15%;
+	width: 70%;
 }
 body {
 	line-height: 1;
@@ -90,7 +95,7 @@ body {
 	height: auto;
 	background: #FFFFFF;
 }
-section{
+#Portfolio{
 	height: 750px;
 }
 ol, ul {
@@ -114,7 +119,7 @@ a.currentPage{
 span.sidebar{
 	display: inline-block;
 	width: 24%;
-	height: 100%;
+	height: 100%%;
 	background-color: #415A77;
 }
 span.content{
