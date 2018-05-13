@@ -33,6 +33,10 @@ header {
 	height: 64px;
 	background-color: #C1CBD7;
 } 
+footer{
+	height: 80px;
+	background-color: #C1CBD7;
+}
 nav{
 	display: inline-block;
 	width: 45%;
@@ -162,4 +166,31 @@ span.content{
     to {
         opacity: 1;
     }
+}
+a.lfoot{
+	display: inline-block;
+	width: 30px;
+	margin-left: 37%;
+	padding-right: 0%;
+	padding-top: 0%;
+	padding-bottom: 0%;
+}
+a.midfoot{
+	display: inline;
+	padding-left: 0%;
+	line-height: 70px;
+}
+a.rfoot{
+	display: inline;
+	margin-left: 5%;
+	line-height: 70px;
+}
+
+#iglogo{
+	display: inline;
+	padding-top: 5px;
+	padding-bottom: 18px;
+	padding-right: 0%;
+	height: 30px;
+	width: 30px;
 }
