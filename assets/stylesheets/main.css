@@ -28,14 +28,24 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-/*https://coolors.co/0d1b2a-1b263b-415a77-c1cbd7-4b5358*/
+/*https://coolors.co/f2c318-70798c-000000-4fc7e5-e980fc*/
+/*
+#000000
+#70798C
+#4FC7E5
+#E980FC
+#F2C318
+*/
+span, div, section, header, footer{
+	background-color: #FFFFFF;
+}
 header {
-	height: 64px;
-	background-color: #C1CBD7;
+	height: 100px;
+	background-color: #FFFFFF;
 } 
 footer{
 	height: 80px;
-	background-color: #C1CBD7;
+	background-color: #FFFFFF;
 }
 nav{
 	display: inline-block;
@@ -50,19 +60,24 @@ img{
 	padding-bottom: 2.5%;
 }
 h1 {
-	font: 300 45px/100px "Maitree", Arial, sans-serif;
+	font: 300 45px/100px "Raleway", Arial, sans-serif;
 	color: #A2A3BB;
 	text-align: center;
 	font-weight: normal;	
 }
 h2 {
-	padding-left: 20px;
-	font: 300 20px/20px "Maitree", Arial, sans-serif;
-	padding-top:12px;
+	font: 300 20px/20px "K2D", Arial, sans-serif;
+	padding: 50px;
+	padding-bottom: 20px;
+	padding-right: 0px;
 	height:52px;
 	color: #1B263B;
 	display: inline-block;
 	width: 50%;
+	font-size: 72px;
+  	background: -webkit-linear-gradient(1turn, #4FC7E5, #E980FC);
+ 	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
 }
 h3{
 	display: inline-block;
@@ -70,25 +85,25 @@ h3{
 	padding-bottom: 0px;
 	width: 100%;
 	text-align: center;	
-	font: 300 30px/30px "Maitree", Arial, sans-serif;
+	font: 300 30px/30px "Raleway", Arial, sans-serif;
 	color: #A2A3BB;
 }
 h4{
 	padding-top: 35px;
 	padding-bottom: 20px;
 	text-align: center;	
-	font: 300 20px/30px "Maitree", Arial, sans-serif;
+	font: 300 20px/30px "Raleway", Arial, sans-serif;
 	color: #A2A3BB;
 }
 h5, h6{
-  	font: 300 16px/22px "Maitree", Arial, sans-serif;
+  	font: 300 16px/22px "Raleway", Arial, sans-serif;
 }
 a{
 	text-decoration: none;
-	font: 300 15px/20px "Maitree", Arial, sans-serif;
-	color: #415A77;
+	font: 300 15px/20px "K2D", Arial, sans-serif;
+	color: #5ebce5;
 	display: inline-block;
-	width: 19%;
+	width: 32%;
 	vertical-align: 50%;
 }
 aside{
@@ -98,16 +113,8 @@ aside{
 	text-align:justify;  
     text-justify:auto;
 }
-#storeAside{
-	font: 400 16px/25px "Cousine", Arial, sans-serif;
-  	padding-left: 8%;
- 	padding-right: 8%;
-  	text-align:justify;  
-	text-justify:auto;
-	padding-bottom: 2%;
-}
 article, p{
-	font: 400 18px/30px "Montserrat", Arial, sans-serif;
+	font: 400 18px/30px "Roboto", Arial, sans-serif;
 	padding-left: 15%;
 	width: 70%;
 	text-align:justify;  
@@ -119,9 +126,6 @@ body {
 	height: auto;
 	background: #FFFFFF;
 	min-width: 1100px;
-}
-#Portfolio{
-	height: 750px;
 }
 ol, ul {
 	list-style: none;
@@ -140,106 +144,4 @@ table {
 }
 a.currentPage{
 	color: #1B263B;
-}
-span.sidebar{
-	display: inline-block;
-	width: 24%;
-	height: 100%;
-	background-color: #415A77;
-}
-span.content{
-	display: inline-block;
-	width: 74%;
-	height: 100%;
-	vertical-align: top;
-	padding-left: 1%;
-}
-
-#Portfolio {
-    animation: fadein 2s;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
-}
-@keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-moz-keyframes fadein { /* Firefox */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-webkit-keyframes fadein { /* Safari and Chrome */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-o-keyframes fadein { /* Opera */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-a.lfoot{
-	display: inline-block;
-	width: 30px;
-	margin-left: 37%;
-	padding-right: 0%;
-	padding-top: 0%;
-	padding-bottom: 0%;
-}
-a.midfoot{
-	display: inline;
-	padding-left: 0%;
-	line-height: 70px;
-}
-a.rfoot{
-	display: inline;
-	margin-left: 5%;
-	line-height: 70px;
-}
-#iglogo{
-	display: inline;
-	padding-top: 5px;
-	padding-bottom: 18px;
-	padding-right: 0%;
-	height: 30px;
-	width: 30px;
-}
-span.Product{
-	width: 33%;
-	display: inline-block;
-}
-.Product h3{
-	text-align: center;
-	display: block;
-	width: 100%;
-}
-.Product img{
-	display: block;
-	width: 95%;
-	margin-left: 2%;
-	margin-right: 2%;
-}
-.Product a{
-	text-align: center;
-	font: 300 30px/30px "Maitree", Arial, sans-serif;
-	color: #A2A3BB;
-	width: 100%;
-}
-#spacer{
-	height: 30px;;
 }
