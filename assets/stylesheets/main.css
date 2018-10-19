@@ -28,28 +28,30 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-/*https://coolors.co/f2c318-70798c-000000-4fc7e5-e980fc*/
+/*https://coolors.co/f2f2f2-70798c-000000-4fc7e5-e980fc*/
 /*
-#000000
-#70798C
-#4FC7E5
-#E980FC
-#F2C318
+#F2F2F2 ANTI-FLASH WHITE
+#70798C SLATE GRAY
+#000000 TRUE BLACK
+#4FC7E5 SEA SERPENT
+#E980FC VIOLET
 */
 span, div, section, header, footer{
-	background-color: #FFFFFF;
+	background-color: #F2F2F2;
 }
 header {
 	height: 100px;
-	background-color: #FFFFFF;
+	background-color: #F2F2F2;
 } 
 footer{
 	height: 80px;
-	background-color: #FFFFFF;
+	background-color: #F2F2F2;
 }
 nav{
 	display: inline-block;
 	width: 45%;
+	height: 67px;
+	vertical-align: 50%;
 }
 img{
 	display: inline-block;
@@ -68,10 +70,10 @@ h1 {
 h2 {
 	font: 300 20px/20px "K2D", Arial, sans-serif;
 	padding: 50px;
-	padding-bottom: 20px;
+	padding-bottom: 0px;
 	padding-right: 0px;
-	height:52px;
-	color: #1B263B;
+	padding-top: 40px;
+	height:72px;
 	display: inline-block;
 	width: 50%;
 	font-size: 72px;
@@ -104,6 +106,7 @@ a{
 	color: #5ebce5;
 	display: inline-block;
 	width: 32%;
+	height: 100%;
 	vertical-align: 50%;
 }
 aside{
@@ -124,7 +127,7 @@ body {
 	line-height: 1;
 	width: 100%;
 	height: auto;
-	background: #FFFFFF;
+	background: #F2F2F2;
 	min-width: 1100px;
 }
 ol, ul {
@@ -144,4 +147,17 @@ table {
 }
 a.currentPage{
 	color: #1B263B;
+}
+
+#h2{
+	font: 300 20px/20px "K2D", Arial, sans-serif;
+	display: inline;
+	height: 100%;
+	width: 100%;
+	color: #1B263B;
+	font-size: 72px;
+	vertical-align: 0%;
+  	background: -webkit-linear-gradient(1turn, #4FC7E5, #E980FC);
+ 	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
 }
