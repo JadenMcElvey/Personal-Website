@@ -28,8 +28,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-/*https://coolors.co/f2f2f2-70798c-000000-4fc7e5-e980fc*/
 /*
+https://coolors.co/f2f2f2-70798c-000000-4fc7e5-e980fc
+
 #F2F2F2 ANTI-FLASH WHITE
 #70798C SLATE GRAY
 #000000 TRUE BLACK
@@ -44,7 +45,7 @@ header {
 	background-color: #F2F2F2;
 } 
 footer{
-	height: 80px;
+	height: 100px;
 	background-color: #F2F2F2;
 }
 nav{
@@ -56,14 +57,10 @@ nav{
 img{
 	display: inline-block;
 	pointer-events: none;
-	width: 30%;
-	padding-left: 1.5%;
-	padding-right: 1.5%;
-	padding-bottom: 2.5%;
 }
 h1 {
 	font: 300 45px/100px "Raleway", Arial, sans-serif;
-	color: #A2A3BB;
+	color: #70798C;
 	text-align: center;
 	font-weight: normal;	
 }
@@ -87,18 +84,22 @@ h3{
 	padding-bottom: 0px;
 	width: 100%;
 	text-align: center;	
-	font: 300 30px/30px "Raleway", Arial, sans-serif;
-	color: #A2A3BB;
+	font: 300 35px/30px "Raleway", Arial, sans-serif;
+	color: #70798C;
 }
 h4{
 	padding-top: 35px;
-	padding-bottom: 20px;
 	text-align: center;	
-	font: 300 20px/30px "Raleway", Arial, sans-serif;
-	color: #A2A3BB;
+	font: 400 20px/30px "Raleway", Arial, sans-serif;
+	color: #70798C;
 }
-h5, h6{
-  	font: 300 16px/22px "Raleway", Arial, sans-serif;
+h5{
+	font: 400 16px/22px "Raleway", Arial, sans-serif;
+	color: #70798C;
+	text-align: center;
+}
+h6{
+	font: 400 16px/22px "K2D", Arial, sans-serif;
 }
 a{
 	text-decoration: none;
@@ -110,18 +111,19 @@ a{
 	vertical-align: 50%;
 }
 aside{
-  	font: 400 16px/25px "Montserrat", Arial, sans-serif;
-	padding-left: 8%;
-	padding-right: 8%;
-	text-align:justify;  
+	font: 200 16px/20px "Raleway", Arial, sans-serif;
+	color: #70798C;
+	text-align: center;  
     text-justify:auto;
 }
 article, p{
-	font: 400 18px/30px "Roboto", Arial, sans-serif;
+	font: 200 16px/30px "Raleway", Arial, sans-serif;
 	padding-left: 15%;
 	width: 70%;
-	text-align:justify;  
-    text-justify:auto;
+	text-align: center;  
+	text-justify:auto;
+	color: #70798C;
+	margin-top: 20px;
 }
 body {
 	line-height: 1;
@@ -149,6 +151,15 @@ a.currentPage{
 	color: #1B263B;
 }
 
+section{
+    width: 95%;
+	padding: 2.5%;
+	padding-top: 0%;
+	padding-bottom: 20px;
+
+    height: auto;
+}
+
 #h2{
 	font: 300 20px/20px "K2D", Arial, sans-serif;
 	display: inline;
@@ -160,4 +171,24 @@ a.currentPage{
   	background: -webkit-linear-gradient(1turn, #4FC7E5, #E980FC);
  	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
+}
+
+#h4{
+	font: 400 20px/30px "Raleway", Arial, sans-serif;
+	color: #70798C;
+	height: 30px;
+	vertical-align: 0%;
+}
+
+#aside{
+	font: 200 16px/16px "Raleway", Arial, sans-serif;
+	color: #70798C;
+	width: auto;
+	height: auto;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+#img{
+	width: 100%;
 }

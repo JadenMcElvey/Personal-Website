@@ -1,0 +1,25 @@
+a.gallery-section{
+    width: 10%;
+    padding: 2%;
+    text-align: center;
+}
+
+div.gallery-image{
+    display: inline-block;
+    width: 24%;
+    margin-bottom: 10px;
+    border-right: solid;
+    border-left: solid;
+    border-color: #70798C;
+    border-width: 2px;
+}
+
+img.gallery-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    max-height: 175px;
+}
