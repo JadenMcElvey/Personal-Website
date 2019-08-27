@@ -36,17 +36,29 @@ https://coolors.co/f2f2f2-70798c-000000-4fc7e5-e980fc
 #000000 TRUE BLACK
 #4FC7E5 SEA SERPENT
 #E980FC VIOLET
+
+292CCC
+7083E0
 */
 span, div, section, header, footer{
-	background-color: #F2F2F2;
+	background-color: #FFFFFF;
+}
+div{
+	display: block;
+	background-color: #8082cc;
+	width: 10%;
+	height: 100%;
+}
+span{
+	background-color: rgba(0, 0, 0, 0)
 }
 header {
 	height: 100px;
-	background-color: #F2F2F2;
+	background-color: #8082cc;
 } 
 footer{
 	height: 100px;
-	background-color: #F2F2F2;
+	background-color: #FFFFFF;
 }
 nav{
 	display: inline-block;
@@ -59,24 +71,22 @@ img{
 	pointer-events: none;
 }
 h1 {
-	font: 300 45px/100px "Raleway", Arial, sans-serif;
-	color: #70798C;
-	text-align: center;
-	font-weight: normal;	
-}
-h2 {
-	font: 300 20px/20px "K2D", Arial, sans-serif;
+	font-family: "Libre Baskerville", Arial, sans-serif;
 	padding: 50px;
 	padding-bottom: 0px;
 	padding-right: 0px;
 	padding-top: 40px;
-	height:72px;
+	height:60px;
 	display: inline-block;
 	width: 50%;
-	font-size: 72px;
-  	background: -webkit-linear-gradient(1turn, #4FC7E5, #E980FC);
- 	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
+	font-size: 2em;
+}
+h2 {
+	font-family: "Libre Baskerville", Arial, sans-serif;
+	display: inline;
+	font-size: 2em;
+	line-height: 1.5em;
+	color: #FFFFFF;
 }
 h3{
 	display: inline-block;
@@ -84,40 +94,42 @@ h3{
 	padding-bottom: 0px;
 	width: 100%;
 	text-align: center;	
-	font: 300 35px/30px "Raleway", Arial, sans-serif;
+	font: 300 35px/30px "Lexend Deca", Arial, sans-serif;
 	color: #70798C;
 }
 h4{
 	padding-top: 35px;
 	text-align: center;	
-	font: 400 20px/30px "Raleway", Arial, sans-serif;
+	font: 400 20px/30px "Lexend Deca", Arial, sans-serif;
 	color: #70798C;
 }
 h5{
-	font: 400 16px/22px "Raleway", Arial, sans-serif;
+	font: 400 16px/22px "Lexend Deca", Arial, sans-serif;
 	color: #70798C;
 	text-align: center;
 }
 h6{
-	font: 400 16px/22px "K2D", Arial, sans-serif;
+	font: 400 16px/22px "Lexend Deca", Arial, sans-serif;
 }
 a{
 	text-decoration: none;
-	font: 300 15px/20px "K2D", Arial, sans-serif;
-	color: #5ebce5;
-	display: inline-block;
-	width: 32%;
-	height: 100%;
+	font: 300 15px/20px "Lexend Deca", Arial, sans-serif;
+	color: #FFFFFF;
+	display: inline;
+	margin-left: 15%;
 	vertical-align: 50%;
 }
 aside{
-	font: 200 16px/20px "Raleway", Arial, sans-serif;
-	color: #70798C;
+	padding-top: 15%;
+	font: 200 16px/20px "Hepta Slab", Arial, sans-serif;
+	color: #FFFFFF;
 	text-align: center;  
-    text-justify:auto;
+	text-justify:auto;
+	margin: 0%;
+	position: relative;
 }
 article, p{
-	font: 200 16px/30px "Raleway", Arial, sans-serif;
+	font: 200 16px/30px "Hepta Slab", Arial, sans-serif;
 	padding-left: 15%;
 	width: 70%;
 	text-align: center;  
@@ -128,8 +140,8 @@ article, p{
 body {
 	line-height: 1;
 	width: 100%;
-	height: auto;
-	background: #F2F2F2;
+	height: 1000px;;
+	background: #FFFFFF;
 	min-width: 1100px;
 }
 ol, ul {
@@ -160,35 +172,85 @@ section{
     height: auto;
 }
 
-#h2{
-	font: 300 20px/20px "K2D", Arial, sans-serif;
-	display: inline;
-	height: 100%;
+#h1{
+	margin-left: 0%;
+	width: 50%
+}
+
+.lavender{
+	background-color: #8082cc;
 	width: 100%;
-	color: #1B263B;
-	font-size: 72px;
-	vertical-align: 0%;
-  	background: -webkit-linear-gradient(1turn, #4FC7E5, #E980FC);
- 	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
+	height: 500px;
 }
 
-#h4{
-	font: 400 20px/30px "Raleway", Arial, sans-serif;
-	color: #70798C;
-	height: 30px;
-	vertical-align: 0%;
+.parallaxImg { 
+	/* The image used */
+	background-image: url("../images/boulder.jpg");
+  
+	/* Set a specific height */
+	width: 80%;
+	height: 500px; 
+  
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	border-top-right-radius: 4px;
+
+	display: inline-block;
+
+	position: relative;
+	top: 0%;
 }
 
-#aside{
-	font: 200 16px/16px "Raleway", Arial, sans-serif;
-	color: #70798C;
-	width: auto;
+.side {
+	display: inline-block;
+	margin-left: 12px;
+	text-align: center;
+	width: 18%;
 	height: auto;
-	padding-bottom: 0px;
-	margin-bottom: 0px;
+	position: relative;
+	top: -10%;
 }
 
-#img{
-	width: 100%;
+.logo{
+	margin: 0%;
+	padding-top: 15%;
+}
+
+.logoImg{
+	max-height: 30px;
+	width: auto;
+	padding-left: 5%;
+}
+
+.button{
+	text-align: center;
+	margin-top: 13%;
+	color: #8082cc;
+	background-color: #FFFFFF;
+	width: 80%;
+	padding: 2%;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-weight: 400
+}
+
+.download{
+	margin: 0%;
+	font-family: Hepta Slab;
+	font-weight: 600;
+	color: #8082cc;
+	position: relative;
+	top: 3px;
+}
+
+aside.parallax{
+	font: 400 25px/25px "Hepta Slab", Arial, sans-serif;
+	float: left;
+	padding-top: 30%;
+	padding-left: 8%;
+	text-align: left;
 }
